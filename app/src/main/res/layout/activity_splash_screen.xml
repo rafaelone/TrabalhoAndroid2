@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_splash_srcreen"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="br.com.fiap.exercicios.listview.RM77722.SplashScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="@string/pizza_s_app"
+        android:id="@+id/pizzaApp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RM 77722"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/splash"
+            android:src="@drawable/splash"
+
+            />
+    </RelativeLayout>
+</LinearLayout>
