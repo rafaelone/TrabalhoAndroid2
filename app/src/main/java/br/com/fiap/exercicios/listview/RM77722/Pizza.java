@@ -14,9 +14,9 @@ public class Pizza implements Serializable{
     private String nome;
     private String ingredientes;
     private String alergicos;
-    private String rank;
+    private int rank;
 
-    public Pizza(String descricao, int imagem, String valor, String nome, String ingredientes, String alergicos, String rank) {
+    public Pizza(String descricao, int imagem, String valor, String nome, String ingredientes, String alergicos, int rank) {
         this.descricao = descricao;
         this.imagem = imagem;
         this.valor = valor;
@@ -26,11 +26,11 @@ public class Pizza implements Serializable{
         this.rank = rank;
     }
 
-    public String getRank() {
+    public int getRank() {
         return rank;
     }
 
-    public void setRank(String rank) {
+    public void setRank(int rank) {
         this.rank = rank;
     }
     public String getNome() {
