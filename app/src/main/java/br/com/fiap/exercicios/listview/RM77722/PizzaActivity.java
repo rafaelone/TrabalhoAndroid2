@@ -10,6 +10,10 @@ public class PizzaActivity extends AppCompatActivity {
 
     ImageView imgPizza;
     TextView txtDescricao;
+    TextView txtNome;
+    TextView txtIngredientes;
+    TextView txtAlergicos;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +28,17 @@ public class PizzaActivity extends AppCompatActivity {
 
         imgPizza = (ImageView)findViewById(R.id.imgPizza);
         txtDescricao = (TextView)findViewById(R.id.txtDescricao);
+        txtNome = (TextView)findViewById(R.id.txtNome);
+        txtIngredientes = (TextView) findViewById(R.id.txtIngredientes);
+        txtAlergicos = (TextView) findViewById(R.id.txtAlergicos);
 
         imgPizza.setImageResource(pizza.getImagem());
-        txtDescricao.setText(pizza.getDescricao());
+        txtNome.setText(pizza.getNome());
+        txtIngredientes.setText(pizza.getIngredientes());
+        txtAlergicos.setText(pizza.getAlergicos());
+
+
+
 
     }
 
