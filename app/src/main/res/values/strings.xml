@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PizzaApp</string>
     <string name="pizza_s_app">Pizza\'s App</string>
+    <string name="desativar">Deseja Desativar a Splash Screen ?</string>
+    <string name="tempo_da_splash_screen">tempo</string>
+    <string name="em_milissegundos_ex_1000_1s">segundos</string>
+    <string name="salvar">salvar</string>
+    <string name="preferences">Preferencia</string>
 </resources>
